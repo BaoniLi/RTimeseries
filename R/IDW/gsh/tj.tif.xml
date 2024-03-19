@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="zh"><Esri><CreaDate>20190625</CreaDate><CreaTime>15560100</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\ExtractByMask" Date="20190625" Time="155601">ExtractByMask ET500.tif shm_TJ D:\长江流域\griddata\tj.tif</Process></lineage></DataProperties></Esri></metadata>

@@ -1,0 +1,9 @@
+distAB <- function(A,B){
+  smatAA<-apply(A,1,crossprod)
+  matAA<-matrix(smatAA,nrow=nrow(A),ncol=nrow(B))
+  smatBB<-apply(B,1,crossprod)
+  matBB<-t(matrix(smatBB,nrow=nrow(B),ncol=nrow(A)))
+  matAB<-tcrossprod(A,B)
+  distAB<-sqrt(matAA+matBB-2*matAB)
+  distAB
+}
